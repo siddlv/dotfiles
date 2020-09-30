@@ -10,8 +10,8 @@ set nu
 set nowrap
 set smartcase
 set incsearch
-"set colorcolumn=80
-"highlight ColorColumn ctermbg=0 guibg=lightgrey
+" set colorcolumn=80
+" highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 " Vimplug
 call plug#begin('~/.vim/plugged')
@@ -24,7 +24,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
